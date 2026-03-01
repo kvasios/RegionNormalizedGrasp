@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "region-normalized-grasp"
+version = "0.0.0"
+description = "Region-aware grasp framework with normalized grasp space."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+
+# Keep dependencies empty here to avoid forcing heavyweight/CUDA-specific installs
+# during editable development installs. Follow README/requirements.txt for env setup.
+dependencies = []
+
+[tool.setuptools]
+py-modules = ["train_utils"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["dataset*", "models*", "customgraspnetAPI*"]
