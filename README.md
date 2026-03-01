@@ -21,28 +21,6 @@ The codebase is mainly built based on our former work [HGGD](https://github.com/
 
 ![framework](./images/framework.png)
 
-# Requirements
-
-- Python >= 3.8
-- PyTorch >= 1.10
-- pytorch3d
-- numpy==1.23.5
-- pandas
-- cupoch
-- numba
-- grasp_nms
-- matplotlib
-- open3d
-- opencv-python
-- scikit-image
-- tensorboardX
-- torchsummary
-- tqdm
-- transforms3d
-- trimesh
-- autolab_core
-- cvxopt
-
 ## Installation
 
 This code has been tested on Ubuntu20.04 with Cuda 11.1/11.3/11.6, Python3.8/3.9 and Pytorch 1.11.0/1.12.0.
